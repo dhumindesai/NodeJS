@@ -1,0 +1,11 @@
+<article class="event">
+  <h1>ID: {{ location.id }}</h1>
+  <h1>Location Name: {{ location.name }}</h1> 
+  <h3>Location: {{ location.location }}</h3>
+  <h3>Events at this location: </h3> 
+  {{#each events}}  
+    <article class="events">
+      <h2><a href="/events/{{id}}">{{title}}</a></h2>
+    </article>
+  {{/each}}
+</article>

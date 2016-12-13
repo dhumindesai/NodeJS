@@ -1,0 +1,87 @@
+body {
+    background: #FEFEFE;
+    font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 15pt;
+    background-color: lightskyblue
+}
+
+main {
+    max-width: 75%;
+    margin: auto;
+}
+
+header {
+    border-bottom: 1px solid #AFAFAF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: blue;
+    margin-bottom: 5px;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h2 {
+    font-size: 1.75rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+}
+
+h4 {
+    font-size: 1.25rem;
+}
+
+h5 {
+    font-size: 1.15rem;
+}
+
+h6 {
+    font-size: 1.05rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 2;
+}
+
+.post {
+    width: 75%;
+    border-bottom: 1px dashed #333;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover{
+    color: red;
+    font-size: 2rem;
+} 
+
+article{
+    border: 1px dotted rebeccapurple;
+    font-style: italic;
+    padding: 5px 5px 10px 10px;
+}
+.events:hover{
+        background: dodgerblue;
+}
+
+.event p{
+    font-size: 1rem;
+    color: seagreen;
+    font-family: Gill sans
+}
+.event h1{
+    font-family: Gill sans
+}
+
+.headers{
+    font-family: fantasy;
+    text-decoration: underline;
+    font-size: 3rem;
+}
